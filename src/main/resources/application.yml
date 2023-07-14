@@ -1,0 +1,29 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: NOTIFICATION-SERVICE
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: shohruxmingnazarov272@gmail.com
+    password: imoqehvbvuhbdacq
+    properties:
+      mjaail:
+        smtp:
+          auth: true
+      mail:
+        smtp:
+          starttls:
+            enable: true
+
+
+
+eureka:
+  client:
+    service-url:
+      defaultUrl: ${EUREKA_URI:http://localhost:8761/eureka/}
+    instance:
+      preferIpAddress: true
+
