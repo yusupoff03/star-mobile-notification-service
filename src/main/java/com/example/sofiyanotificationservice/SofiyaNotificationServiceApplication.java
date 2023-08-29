@@ -10,5 +10,4 @@ public class SofiyaNotificationServiceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SofiyaNotificationServiceApplication.class, args);
 	}
-
 }

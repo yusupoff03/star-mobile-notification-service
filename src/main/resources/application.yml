@@ -1,5 +1,5 @@
 server:
-  port: 8083
+  port: 8081
 
 spring:
   application:
@@ -7,8 +7,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: shohruxmingnazarov272@gmail.com
-    password: imoqehvbvuhbdacq
+    username: elmurodov1106@gmail.com
+    password: rehixeessiscctor
     properties:
       mjaail:
         smtp:
@@ -23,7 +23,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultUrl: ${EUREKA_URI:http://localhost:8761/eureka/}
+      defaultUrl: ${EUREKA_URI:http://161.35.16.131/8761:8761/eureka/}
     instance:
       preferIpAddress: true
 
